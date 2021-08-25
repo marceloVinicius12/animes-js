@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&family=Prompt:ital,wght@1,300&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+body{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    background-image: url(../img/fundopoke.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    
+}
+h1{
+    font-family: 'Prompt', sans-serif;
+   font-size: 3em;
+   margin: 0;
+   padding: 0;
+   
+}
+.container{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to left top, #be0abe , #07688f);
+    color: white;
+}
+img {
+    width: 300px;
+    height: 190px;
+    object-fit: cover;
+    margin: 5px;
+    border: 5px solid rgb(248, 247, 247);
+}
+.lista-animes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cartao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
